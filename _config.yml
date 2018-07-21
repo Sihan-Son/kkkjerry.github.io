@@ -25,7 +25,14 @@ owner:
   tumblr:
   # google plus id, include the '+', eg +mmistakes
   google_plus:
-
+nav:
+  Home:
+    - '/'
+  Contents:
+    - '/_posts/'
+    - {Tensorflow: '/_posts/_tensorflow/'}
+    - {Test: '/_posts/_test/'}
+    
 # Background image to be tiled on all pages
 background:
 
