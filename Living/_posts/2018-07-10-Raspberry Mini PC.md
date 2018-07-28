@@ -5,6 +5,7 @@ description:
 modified: 2018-07-10
 category: [Living]
 tags: [Raspberry pi, NAS]
+comments: 
 ---
 
 # Raspberry Mini PC
