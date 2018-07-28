@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: About
 comments: false
 image:
   feature: "img.jpg"
