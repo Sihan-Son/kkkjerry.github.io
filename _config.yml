@@ -23,9 +23,9 @@ version: 1.0.0
 
 # About/contact
 author:
-  name: rJerry
-  description: <strong>보물찾기</strong> 그리운 마을, 그 먼 바다에 이르기까지
-  gravatar:
+  name: Jerry
+  description:
+  gravatar: https://github.com/kkkjerry/kkkjerry.github.io/tree/master/public/img/IMG_2918.JPG
   contact:
     #linkedin:  https://www.linkedin.com/in/gichanglee/
     github:    https://github.com/kkkjerry
