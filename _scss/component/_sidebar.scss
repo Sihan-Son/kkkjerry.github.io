@@ -34,7 +34,7 @@
     right: auto;
   }
 
-  @if $theme-color != $default {
+  @if $theme-color != $black {
     background-color: $theme-color;
   } @else {
     background-color: darken($theme-color-dark, 10%);
