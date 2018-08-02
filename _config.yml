@@ -1,9 +1,9 @@
 # Site Info
 title: Jerry's Git Blog
-tagline: 'for vision'
-description: 'blog for textmining'
+tagline: 'For People Studying about vision'
+description:
 url: http://kkkjerry.github.io
-logo:
+logo: '/public/logo.png'
 encoding: utf-8
 
 # Site configurations
