@@ -1,71 +1,59 @@
-title:            Jerry Hub
-description:      Jerry
-disqus_shortname:
-reading_time:     false
-comments:         yes
-words_per_minute:
-# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
-# When testing locally leave blank or use http://localhost:4000
-url:
+# Site Info
+title: Jerry's Git Blog
+tagline: 'for vision'
+description: 'blog for textmining'
+url: http://kkkjerry.github.io
+logo:
+encoding: utf-8
 
-# Owner/author information
-owner:
-  name:           Jerry
-  avatar:         tom&jerry.jpg
-  bio:
-  email:          jaeyeol2931@gmail.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:
-  facebook:
-  github:         kkkjerry
-  stackexchange:
-  linkedin:
-  instagram:
-  flickr:
-  tumblr:
-  # google plus id, include the '+', eg +mmistakes
-  google_plus:
-
-
-# Background image to be tiled on all pages
-background:
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Seoul
-future:      true
-highlighter: rouge
-markdown:    kramdown
+# Site configurations
 gems:
-  - jekyll-sitemap
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
-
-# Amount of post to show on home page
-paginate: 1
-
+  - jekyll-paginate
+markdown: kramdown
 kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: true
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+version: 1.0.0
 
-  coderay:
-    coderay_line_numbers: nil
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+# About/contact
+author:
+  name: rJerry
+  description: <strong>보물찾기</strong> 그리운 마을, 그 먼 바다에 이르기까지
+  gravatar:
+  contact:
+    #linkedin:  https://www.linkedin.com/in/gichanglee/
+    github:    https://github.com/kkkjerry
+    facebook:  https://www.facebook.com/jerry.kim.566
+    #twitter:  <hide>
+    #weibo:    <hide>
+    email:     mailto:jaeyeol2931@gc.gachon.ac.kr
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+# Navigation (2nd level links supported)
+nav:
+  Home:
+    - '/'
+  Contents:
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Tags: '/blog/tags/' }
+  About:
+    - '/about/'
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+hero:
+  image: https://kkkjerry.github.io/public/img/cat.JPG
+  caption: I'm jerry. I love cat.
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: 'UA-93172815-1' # leave blank if you don't want google analytics
+disqus_short_name: 'kkkjerry-github-io' # leave blank if you don't want disqus

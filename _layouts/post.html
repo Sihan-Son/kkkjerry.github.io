@@ -1,59 +1,47 @@
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
-<head>
-{% include head.html %}
-</head>
+---
+layout: default
+---
 
-<body id="post" {% if page.image.feature %}class="feature"{% endif %}>
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <h4 style="margin-top:0;"><span class="post-date">{{ page.date | date_to_string }}</span>
+  {% if page.tags %} | 
+  {% for tag in page.tags %}
+    <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+  {% endfor %}
+  {% endif %}
+  </h4>
+  <h4 style="font-weight: 400; line-height: 1.8;"><article>
+    {{ content }}
+  </article></h4>
+</div>
 
-{% include browser-upgrade.html %}
-{% include navigation.html %}
+{% for item in site.data.related %}
+  {% if page.slug == item.post %}
+    <div class="related">
+      <h2>Related Posts</h2>
+        <ul class="related-posts">
+          {% for pslug in item.related %}
+            {% for p in site.posts %}
+              {% if p.slug == pslug %}
+                <li>
+                  <h3>
+                    <a href="{{ site.baseurl }}{{ p.url }}">
+                      {{ p.title }}
+                      <small>{{ p.date | date_to_string }}</small>
+                    </a>
+                  </h3>
+                </li>
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        </ul>
+    </div>
+  {% endif %}
+{% endfor %}
 
-{% if page.image.feature %}
-<div class="entry-header">
-  {% if page.image.credit %}<div class="image-credit">Image source: {% if page.image.creditlink %}<a href="{{ page.image.creditlink }}">{% endif %}{{ page.image.credit }}{% if page.image.creditlink %}</a>{% endif %}</div><!-- /.image-credit -->{% endif %}
-  <div class="entry-image">
-    <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
-  </div><!-- /.entry-image -->
-</div><!-- /.entry-header -->
-{% endif %}
 
-<div id="main" role="main">
-  <article class="hentry">
-    <header class="header-title">
-      <div class="header-title-wrap">
-        {% if page.link %}
-          <h1 class="entry-title"><i class="fa fa-bookmark permalink"></i> <a href="{{ page.link }}">{{ page.title }}</a></h1>
-        {% else %}
-          <h1 class="entry-title"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
-        {% endif %}
-        <h2><span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></h2>
-        {% if site.reading_time %}
-        <p class="entry-reading-time">
-          <i class="fa fa-clock-o"></i>
-          {% assign readtime = content | number_of_words | divided_by:site.words_per_minute %}
-          Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
-        </p><!-- /.entry-reading-time -->
-        {% endif %}
-      </div><!-- /.header-title-wrap -->
-    </header>
-    <div class="entry-content">
-      {{ content }}
-    </div><!-- /.entry-content -->
-    {% if site.related_posts.size > 0 %}{% include read-more.html %}{% endif %}
-  </article>
-</div><!-- /#main -->
 
-<div class="footer-wrapper">
-  <footer role="contentinfo">
-    {% include footer.html %}
-  </footer>
-</div><!-- /.footer-wrapper -->
-
-{% include scripts.html %}
 {% if site.disqus_short_name %}
 <div class="comments">
   <h2>Comments</h2>
@@ -73,5 +61,3 @@ var disqus_config = function () {
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </div>
 {% endif %}
-</body>
-</html>
