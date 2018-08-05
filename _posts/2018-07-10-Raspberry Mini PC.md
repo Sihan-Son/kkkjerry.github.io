@@ -4,11 +4,10 @@ title:
 description:
 modified: 2018-07-10
 category: [Living]
-tags: [Raspberry pi, NAS]
+tags: [Raspberry pi, Mini PC]
 comments:
 ---
 
-# Raspberry Mini PC
 
 근래에 라즈베리파이로 미니 PC를 만들었습니다!
 
