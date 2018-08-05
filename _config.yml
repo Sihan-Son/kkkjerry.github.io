@@ -51,7 +51,7 @@ category_page: '/blog/categories/'
 
 hero:
   image: https://kkkjerry.github.io/public/img/cat.jpg
-  caption: I'm jerry. I love cat.
+  caption:
 
 # Puglins
 mathjax: true # whether support mathjax
