@@ -1,11 +1,8 @@
 ---
 layout: post
-title:
-description:
-modified: 2018-07-10
+title: Raspberry Pi 미니 PC
 category: [Living]
 tags: [Raspberry pi, Mini PC]
-comments:
 ---
 
 
