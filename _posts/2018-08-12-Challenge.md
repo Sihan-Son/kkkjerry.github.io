@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MICCAI 챌린지.
+title: MICCAI 챌린지
 category: [Living]
 tags: [MICCAI, GIANA]
 ---
