@@ -1,13 +1,13 @@
 ---
 layout: post
-title: MICCAI 챌린지
+title: 챌린지
 category: [Living]
-tags: [MICCAI, GIANA]
+tags: [Challenge]
 ---
 
 # 첫 챌린지 도전...
 
-연구실에서 한달도 남지않은...MICCAI라는 학회에서 주최하는 챌린지를 준비하고 있습니다...
+연구실에서 한달도 남지않은...챌린지를 준비하고 있습니다...
 
 솔직히 딥러닝 공부를 2년정도 했다고 하지만... 자신이 없는 것이 현실..
 
