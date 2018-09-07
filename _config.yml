@@ -7,7 +7,7 @@ logo: '/public/logo.png'
 encoding: utf-8
 
 # Site configurations
-gems:
+plugins:
   - jekyll-paginate
 markdown: kramdown
 kramdown:
