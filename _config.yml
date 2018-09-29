@@ -1,4 +1,3 @@
-google_analytics_id: UA-126636477-1
 # Site Info
 title: Jerry's Blog
 tagline:
@@ -56,5 +55,5 @@ hero:
 
 # Puglins
 mathjax: true # whether support mathjax
-google_analytics_token: 'UA-93172815-1' # leave blank if you don't want google analytics
+google_analytics_token: 'UA-126636477-1' # leave blank if you don't want google analytics
 disqus_short_name: 'kkkjerry' # leave blank if you don't want disqus
