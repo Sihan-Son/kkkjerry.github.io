@@ -9,6 +9,7 @@ encoding: utf-8
 # Site configurations
 plugins:
   - jekyll-paginate
+  - jemoji
 markdown: kramdown
 kramdown:
   input: GFM
