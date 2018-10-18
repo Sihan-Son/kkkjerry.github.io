@@ -15,13 +15,6 @@ CUDA_VISIBLE_DEVICES=0 python ~~~.py # 0번 GPU만 사용.
 #CUDA_VISIBLE_DEVICES=0,3 python ~~~.py # 0, 3번 GPU 사용.
 ```
 
-또는
-
-``` bash
-NV_GPU=0 python ~~~.py # 0번 GPU만 사용.
-#NV_GPU=0,3 python ~~~.py # 0, 3번 GPU 사용.
-```
-
 이렇게 실행하시면 ~~~.py 를 실행해서 GPU 를 사용할 경우 0번 GPU만 사용해서 스크립트가 실행됩니다!
 많은 분들이 **TensorFlow**를 사용하실텐데 이것으로 예를 들어보겠습니다.  
 GPU가 여러 대인 상황에서 아무 옵션도 주지 않고 (스크립트에서도 안줬다는 가정하에..) `tf.Session()` 을 실행하게 되면 모든 GPU의 메모리를 혼자서 다 잡고 있는걸 보셨을 겁니다.  
