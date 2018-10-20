@@ -23,8 +23,8 @@ $title-color: #313131;
 $masthead-title-small-color: #c0c0c0;
 
 /* Layout */
-$reverse-layout: false;
-$overlay-sidebar: true;
+$reverse-layout: false; // 레이아웃 방향 바꾸기
+$overlay-sidebar: true; // sidebar 토글시 덮어쓸지 유무
 
 /* Font stack */
 $font-serif: "PT Serif", Georgia, "Times New Roman", serif;

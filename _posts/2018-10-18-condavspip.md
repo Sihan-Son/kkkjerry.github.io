@@ -7,7 +7,7 @@ tags: [TensorFlow]
 
 오늘 갑자기 당황스러운 포스팅을 봤습니다.
 
-출처 : [링크](https://www.anaconda.com/blog/developer-blog/tensorflow-in-anaconda/)
+출처 : [**https://www.anaconda.com/blog/developer-blog/tensorflow-in-anaconda/**](https://www.anaconda.com/blog/developer-blog/tensorflow-in-anaconda/)
 
 내용을 보니 pip 로 설치하는것 보다 conda를 이용하면 좋은 점이 두 가지가 있다고 합니다.
 

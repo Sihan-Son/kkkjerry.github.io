@@ -67,16 +67,16 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: $white;//#268bd2;
+  color: $blue;//#268bd2;
   text-decoration: none;
 }
 a strong {
-  color: $white;//#6a9fb5; /* 링크 색상 설정 */
+  color: $blue;//#6a9fb5; /* 링크 색상 설정( 링크는 볼드체로 할 것.) */
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  text-decoration: underline;
+  text-decoration: underline; //링크위에 커서가 올라가면 밑줄.
 }
 
 /* Headings */

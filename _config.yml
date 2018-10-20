@@ -41,8 +41,8 @@ nav:
     - '/'
   Contents:
     - '/blog/'
-    - { Archive: '/blog/categories/' }
-    - { Tags: '/blog/tags/' }
+    #- { Archive: '/blog/categories/' }
+    #- { Tags: '/blog/tags/' }
     - { Blog: '/blog/blog/'}
     - { Ubuntu: '/blog/ubuntu/'}
     - { Living: '/blog/living/'}
