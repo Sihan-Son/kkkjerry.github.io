@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Raspberry Pi 미니 PC
+title: 라즈베리파이로 미니 PC 만들기!
 category: [Living]
-tags: [Raspberry pi, Mini PC]
+tags: [RaspberryPi]
 ---
 
 

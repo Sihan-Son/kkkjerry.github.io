@@ -1,23 +1,24 @@
 ---
 layout: post
-title: '[TensorFlow] pip 로 설치하지 말라구요!?'
-category: [Deep Learning]
+title: pip 로 설치하지 말라구요!?
+category: [DeepLearning]
 tags: [TensorFlow]
 ---
 
 오늘 갑자기 당황스러운 포스팅을 봤습니다.
 
-<img src='https://kkkjerry.github.io/public/img/nopip/01.png'>
-출처 : [링크]( https://towardsdatascience.com/stop-installing-tensorflow-using-pip-for-performance-sake-5854f9d9eb0c)
+출처 : [링크](https://www.anaconda.com/blog/developer-blog/tensorflow-in-anaconda/)
 
 내용을 보니 pip 로 설치하는것 보다 conda를 이용하면 좋은 점이 두 가지가 있다고 합니다.
 
-1. CPU 성능이 더 빨라지 GPU 버전 설치가 쉽다고 하네요.
+1. CPU 성능이 더 빨라졌다.
 <img src='https://www.anaconda.com/wp-content/uploads/TensorFlowTraining.png'>
+
 
 2. GPU 버전 설치가 쉽다.  
   솔직히 이건 잘 모르겠네요..   
-  둘 다 똑같이 그래픽 드라이버 설치하고 CUDA 설치하고 해야하는데 뭐가 쉬워진다는건지..
+  둘 다 똑같이 그래픽 드라이버 설치하고 CUDA 설치하고 해야하는데 뭐가 쉬워진다는건지..  
+  뭐.. 어떤 쿠다 버전을 설치했던 알아서 잡아서 TensorFlow 를 설치해준다면 편해진건 맞겠군요.  
 
 
 그리고 CPU 성능 증가는 **Intel CPU에 한해서** 빨라지는 것 같습니다.

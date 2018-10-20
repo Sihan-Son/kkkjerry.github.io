@@ -41,8 +41,12 @@ nav:
     - '/'
   Contents:
     - '/blog/'
-    - { Categories: '/blog/categories/' }
+    - { Archive: '/blog/categories/' }
     - { Tags: '/blog/tags/' }
+    - { Blog: '/blog/blog/'}
+    - { Ubuntu: '/blog/ubuntu/'}
+    - { Living: '/blog/living/'}
+    - { Deep Learning: '/blog/deeplearning/'}
   About:
     - '/about/'
 
