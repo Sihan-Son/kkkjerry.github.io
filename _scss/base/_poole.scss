@@ -60,7 +60,7 @@ html {
 
 body {
   color: #515151;
-  background-color: #fff;
+  background-color: #fdf5e6; // 기본 배경색
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -132,8 +132,8 @@ hr {
   position: relative;
   margin: 1.5rem 0;
   border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #eee; // seperating line color
+  border-bottom: 1px solid #000;
 }
 
 abbr {
@@ -234,7 +234,7 @@ blockquote p:last-child {
 }
 
 img {
-  display: inline; /*emoji*/
+  display: inline; /* emoji */
   max-width: 100%;
   margin: 0 0 1rem;
   border-radius: 5px;
