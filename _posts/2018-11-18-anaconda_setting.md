@@ -11,12 +11,10 @@ CPU와 GPU 중에서도 **GPU** 버전 설치에 대해 알려드릴거에요!
 매우 간단하니 놀라지마시기 바랍니다.
 
 1. Anaconda 를 설치한다.
-2. 터미널 or CMD에 `conda install -n {가상환경 이름} tensorflow-gpu` 라고 입력한다.
+2. 터미널 or CMD에 `conda install python=3.6` 라고 입력한다.
   - CMD에서 안될경우 Anaconda prompt에서 실행하세요.
-3. 가상환경을 activate 한다.
-  - Windows : `activate {가상환경 이름}`
-  - mac / linux : `source activate {가상환경 이름}`
-4. 코딩을 한다.
+3. conda install tensorflow-gpu 라고 입력한다.
+4. 자신이 원하는 IDE로 코딩을 한다.
 
 이렇게 끝입니다.  
 Anaconda 이용시 로컬에 쿠다를 설치 안해줘도 됩니다.  
