@@ -2,7 +2,7 @@
 layout: post
 title: 라즈베리파이로 미니 PC 만들기!
 category: [Living]
-tags: [RaspberryPi]
+tags: [Hardware]
 ---
 
 
