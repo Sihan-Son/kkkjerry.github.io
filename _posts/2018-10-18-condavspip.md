@@ -23,7 +23,7 @@ tags: [TensorFlow]
 
 그리고 CPU 성능 증가는 **Intel CPU에 한해서** 빨라지는 것 같습니다.
 
-<img src='https://jjjjjerry.github.io/public/img/nopip/02.png'>
+<img src='https://kkkjerry.github.io/public/img/nopip/02.png'>
 
 사진을 보시면 **the Intel® Math Kernel Library for Deep Neural Networks (Intel® MKL-DNN)** 을 사용해서 올렸다는거죠. (AMD 사용자 쥬륵..)
 

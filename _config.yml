@@ -2,7 +2,7 @@
 title: Jerry's Blog
 tagline:
 description:
-url: http://jjjjjerry.github.io
+url: http://kkkjerry.github.io
 logo: '/public/logo.png'
 encoding: utf-8
 
@@ -29,7 +29,7 @@ author:
   gravatar: 22a6447c0c965de55f4ce9691aed2af4
   contact:
     #linkedin:  https://www.linkedin.com/in/gichanglee/
-    github:    https://github.com/jjjjjerry
+    github:    https://github.com/kkkjerry
     facebook:  https://www.facebook.com/jerry.kim.566
     #twitter:  <hide>
     #weibo:    <hide>
@@ -56,10 +56,10 @@ tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
 hero:
-  image: https://jjjjjerry.github.io/public/img/cat.jpg
+  image: https://kkkjerry.github.io/public/img/cat.jpg
   caption:
 
 # Puglins
 mathjax: true # whether support mathjax
 google_analytics_token: 'UA-126636477-1' # leave blank if you don't want google analytics
-disqus_short_name: 'jjjjjerry' # leave blank if you don't want disqus
+disqus_short_name: 'kkkjerry' # leave blank if you don't want disqus
